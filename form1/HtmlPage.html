@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>REGISTRO</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+
+    <h1>REGISTRO</h1>
+    <div>
+        <label for="Nome" class="label"><strong>Nome</  strong></label>
+        <input type="text" id="Nome" name="Nome" placeholder=Inserisci il nome>
+    </div><br/>
+
+    <div>
+        <input type="checkbox" name="haPatenteDiGuida" value="true"><strong class="label"> Hai la patente di guida?</strong>
+    </div>
+    <br>
+    <div>
+        <strong class="label">Città</strong>
+        <select name="città">
+            <option value="London">London</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Cairo">Cairo</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <strong class="label">Sesso</strong>
+        <input type="radio" name="sesso" value="uomo" checked />Uomo
+        <input type="radio" name="sesso" value="donna" />Donna
+    </div>
+    <br>
+    <div>
+        <label for="Email" class="label"><strong>Email</strong></label><input name="indirizzoemail" type="Email">
+    </div>
+
+    <div class="down">
+        <strong class="label" margin-top:5px">Messaggio</strong><br>
+        <textarea style="border:solid 2px brown" style="margin-top 5px" rows="10" cols="20">Inserisci il testo</textarea>
+    </div>
+
+
+
+</body>
+</html>

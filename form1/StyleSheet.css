@@ -1,0 +1,30 @@
+﻿body {
+    background-color: wheat;
+    margin: 10px;
+    padding: 10px;
+  
+}
+
+h1 {
+    text-align: center;
+    background-color: lightBlue;
+}
+
+input {
+    border: solid 2px brown;
+}
+
+.right {
+    position: absolute;
+    left: 0;
+}
+
+.label {
+    background-color: lightBlue;
+}
+
+.down {
+    position: relative;
+    left: 250px;
+    bottom: 175px;
+}
